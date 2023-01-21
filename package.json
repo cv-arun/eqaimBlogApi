@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  
+    "start": "node app.js",
+    "run start":"node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,5 @@
     "express": "^4.18.2",
     "mongoose": "^6.8.1",
     "morgan": "^1.10.0"
-    
   }
 }
